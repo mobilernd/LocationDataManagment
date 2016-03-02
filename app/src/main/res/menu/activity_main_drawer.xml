@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:id="@+id/Sort_Points"
+            android:icon="@mipmap/arrow_down_png"
+
+            android:title="Sort Points" />
+        <item android:id="@+id/import_poi"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Import from Smart Guide" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+            <item android:id="@+id/recommended_applications"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Recommended Apps" />
+            <item android:id="@+id/app_setting"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Settings" />
+</group>
+</menu>
